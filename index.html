@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <H3>FORMULARIOS</H3>
+    <form action="/formulario" method="post ">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" placeholder="Nombre">
+        <br>
+        <label for="nombre">Email</label>
+        <input type="email" name="nombre" placeholder="Email">
+        <br>
+        <label for="nombre">Contraseña</label>
+        <input type="password" name="nombre" placeholder="Contraseña">
+        <br>
+        <label for="nombre">radio</label>
+        <input type="radio" name="nombre" placeholder="Nombre"
+        ><br>
+        <label for="nombre">seleccionar</label>
+        <input type="checkbox" name="nombre" placeholder="Nombre">
+        <br>
+        <label for="nombre">un archivo</label>
+        <input type="file" name="nombre" placeholder="Nombre">
+        <hr>
+    </form>
+    <H6>FORMULARIO ALEXIS</H6>
+    <form action="/formulario" method="post ">
+        <label for="nombre">Nombre</label>
+        <input value="Alexis" type="text" name="nombre" placeholder="Nombre">
+        <br>
+        <label for="apellido">Apellido</label>
+        <input value="Sanchez" type="text" name="apellido " placeholder="Apellido">
+        <br>
+        <label for="comentario">Comentario</label><br>
+        <textarea name="comentario" id="comentario" cols="50" rows="10"placeholder="Ingrese su comentario">me entendi ah😎</textarea>
+        <br>
+        <H4>BONTONES</H4>
+        <button type="button">Tipo button</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button>
+    </form>
+<h3>LISTAS</h3>
+    <!-- ul es lista no ordenada-->
+    <H6>LISTA NO ORDENADA</H6>
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <!-- ol es lista ordenada-->
+    <H6>LISTA ORDENADA</H6>
+    <ol>
+        <li value="7">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type:lower-roman;">Sub Elemento 1</li>
+                <li style="list-style-type:lower-roman;">Sub Elemento 2</li>
+                <li style="list-style-type:lower-roman;">Sub Elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+    <H3>TABLAS</H3>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hola beats</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>Zapatillas Master</td>
+                <td>$40.000</td>
+            </tr>
+            <tr>
+                <td>Zapatillas Alexis Sanchez</td>
+                <td>$100.000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td> </td>
+            <td>Total:  $140.000 </td>
+        </tfoot>
+    </table>
+</body>
+</html>
